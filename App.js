@@ -1,13 +1,10 @@
 import React from 'react';
-import './App.css';
-import Tugas9 from './Tugas-9/tugas9.js'
-import DaftarBuah from './Tugas-10/Tugas10.js'
+import Timer from './Tugas-11/Timer.js'
 
 function App() {
   return (
     <div>
-      <Tugas9 />
-      <DaftarBuah/>
+      <Timer />
     </div>
   );
 }
