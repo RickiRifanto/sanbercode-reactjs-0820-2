@@ -1,12 +1,16 @@
 import React from 'react';
-import Timer from './Tugas-11/Timer.js'
+import './App.css';
+import Tugas12 from './Tugas-12/Tugas12.js'
+import DaftarBuah from './Tugas-10/Tugas10.js';
 
 function App() {
   return (
     <div>
-      <Timer />
+      <DaftarBuah />
+      <Tugas12/>
     </div>
   );
 }
+
 
 export default App;
